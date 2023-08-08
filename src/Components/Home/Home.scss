@@ -1,0 +1,50 @@
+//----------------------------------------Home---------------------------------------//
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+
+    // Logo side of Home Page------------------------------------------------/
+
+    .home-photo {
+        img {
+            width: 18rem;
+            height: 18rem;
+            border-radius: 50%;
+            border: solid 10px #444444;
+        }
+    }
+    // Right side of Home Page------------------------------------------------/
+
+    .home-right-side {
+        max-width: 30rem;
+        .grey-title {
+            color: grey;
+            font-size: 1.2rem;
+        }
+        .main-title {
+            font-size: 3rem;
+            margin: 1rem 0rem 1rem 0rem;
+        }
+
+        .home-buttons {
+            display: flex;
+            margin-top: 1rem;
+            gap: 1rem;
+            .web-dev-button {
+                background: #333333;
+                padding: 0.75rem;
+                border: solid 2px #007ced;
+                border-radius: 2rem;
+            }
+            .video-game-button {
+                background: #333333;
+                padding: 0.75rem;
+                border: solid 2px white;
+                border-radius: 2rem;
+            }
+        }
+    }
+}

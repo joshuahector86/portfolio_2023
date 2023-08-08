@@ -4,6 +4,7 @@ import Home from "../Components/Home/Home";
 import "./App.scss";
 import VideoGames from "../Components/VideoGames/VideoGames";
 import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/video-games" element={<VideoGames />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }

@@ -1,43 +1,47 @@
 //----------------------------------------Navbar---------------------------------------//
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .logo {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    // Logo side of navbar------------------------------------------------/
+    .logo {
+        display: flex;
+        align-items: center;
 
-    h4 {
-      display: flex;
-      font-size: rem;
-      p {
-        color: grey;
-        font-weight: 100;
-      }
+        h4 {
+            display: flex;
+            font-size: rem;
+            p {
+                color: grey;
+                font-weight: 100;
+            }
+        }
+        img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: #007ced;
+            border-radius: 50%;
+        }
     }
-    img {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 5rem;
-      background: #007ced;
-      border-radius: 85%;
-    }
-  }
-  .nav-links {
-    display: flex;
-    gap: 2rem;
-    a {
-      text-decoration: none;
-    }
+    // Links side of navbar------------------------------------------------/
 
-    .nav-element {
-      border-radius: 0.5rem;
-      color: grey;
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+        a {
+            text-decoration: none;
+        }
+
+        .nav-element {
+            border-radius: 0.5rem;
+            color: grey;
+        }
+        .nav-element:hover {
+            cursor: pointer;
+            color: white;
+        }
     }
-    .nav-element:hover {
-      cursor: pointer;
-      color: white;
-    }
-  }
 }
