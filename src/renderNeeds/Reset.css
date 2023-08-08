@@ -28,13 +28,22 @@ td {
   padding: 0;
   border: 0;
   outline: none;
+  overflow: hidden;
 }
 
 body {
   line-height: 1;
-
+  min-height: 100vh;
   font-size: 88% /* Decide for yourself if you want to include this. */;
   font-family: Google Sans, arial, sans-serif;
+  display: flex;
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
