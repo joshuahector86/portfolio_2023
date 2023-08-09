@@ -11,10 +11,26 @@ import {
   ToPersonalSiteRedo,
 } from "../../../utils/WebDevData/WebDevData";
 import logo from "../../../assets/general-assets/logo.jpg";
+import { useStoreUnderConstructionDialog } from "../../../ZustandStores/UnderConstructionDialogStore";
+import UnderConstructionDialog from "../../DialogBoxes/UnderConstructionDialog";
 
+//----------------------------------------Web Dev Cards------------------------------------//
 function WebDevCardExample() {
+  //Under Construction Dialog Box Logic
+  const constructionDialogIsOpen = useStoreUnderConstructionDialog(
+    (state) => state.dialogIsOpen
+  );
+  const setConstructionDialogIsOpen = useStoreUnderConstructionDialog(
+    (state) => state.setDialogIsOpen
+  );
+  function ToggleConstruction() {
+    setConstructionDialogIsOpen(!constructionDialogIsOpen);
+    console.log("i made it here");
+  }
   return (
-    <div id="example" className="web-dev-card">
+    <div onClick={ToggleConstruction} id="example" className="web-dev-card">
+      {/*  Boolean Check for Toggle State */}
+      {constructionDialogIsOpen ? <UnderConstructionDialog /> : ""}
       <img
         className="project-image"
         src={construction_image}
@@ -28,6 +44,8 @@ function WebDevCardExample() {
     </div>
   );
 }
+
+//----------------------------------------Personal Site Redo------------------------------------//
 
 function WebDevCardPersonalSiteRedo() {
   return (
@@ -49,6 +67,9 @@ function WebDevCardPersonalSiteRedo() {
     </div>
   );
 }
+
+//----------------------------------------Personal Site First Try------------------------------------//
+
 function WebDevCardPersonalSiteFirstTry() {
   return (
     <div
@@ -69,6 +90,9 @@ function WebDevCardPersonalSiteFirstTry() {
     </div>
   );
 }
+
+//----------------------------------------Krypto Dashboard------------------------------------//
+
 function WebDevCardKryptoniumDash() {
   return (
     <div onClick={ToKryptoniumDash} id="krypto-dash" className="web-dev-card">
