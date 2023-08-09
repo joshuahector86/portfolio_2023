@@ -1,6 +1,7 @@
 //----------------------------------------Web Dev Card---------------------------------------//
 .web-dev-card {
-    padding: 0.5rem 0rem 1rem 0rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
     img {
         width: 20rem;
         height: 15rem;
@@ -20,4 +21,11 @@
             border-radius: 50%;
         }
     }
+}
+.web-dev-card:hover {
+    background: #333333;
+    padding-bottom: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
 }

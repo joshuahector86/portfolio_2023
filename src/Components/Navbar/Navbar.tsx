@@ -1,11 +1,11 @@
 import "./Navbar.scss";
-import logo from "../../assets/general-assets/logo_2.png";
+import { logo_background_removed } from "../../assets/general-assets";
 function Navbar() {
   return (
     <div className="navbar">
       {/* Logo  */}
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <img src={logo_background_removed} alt="logo" />
         <h4>
           Dim
           <p>Hector</p>

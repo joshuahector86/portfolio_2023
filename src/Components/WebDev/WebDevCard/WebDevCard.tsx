@@ -1,11 +1,25 @@
 import "./WebDevCard.scss";
-import web_dev_card_image from "../../../assets/web-dev-page-assets/kryptoniumDash.png";
+import { construction_image } from "../../../assets/general-assets";
+import {
+  web_dev_card_first_try,
+  web_dev_card_krypto,
+  web_dev_card_redo,
+} from "../../../assets/web-dev-page-assets";
+import {
+  ToKryptoniumDash,
+  ToPersonalSiteFirst,
+  ToPersonalSiteRedo,
+} from "../../../utils/WebDevData/WebDevData";
 import logo from "../../../assets/general-assets/logo.jpg";
 
 function WebDevCardExample() {
   return (
-    <div className="web-dev-card">
-      <img src={web_dev_card_image} alt="web-dev-project-here" />
+    <div id="example" className="web-dev-card">
+      <img
+        className="project-image"
+        src={construction_image}
+        alt="web-dev-project-here"
+      />
       <div className="project-title">Title of Project</div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
@@ -17,9 +31,17 @@ function WebDevCardExample() {
 
 function WebDevCardPersonalSiteRedo() {
   return (
-    <div className="web-dev-card">
-      <img src={web_dev_card_image} alt="web-dev-project-here" />
-      <div className="project-title">Title of Project</div>
+    <div
+      onClick={ToPersonalSiteRedo}
+      id="personal-site-redo"
+      className="web-dev-card"
+    >
+      <img
+        className="project-image"
+        src={web_dev_card_redo}
+        alt="web-dev-project-here"
+      />
+      <div className="project-title">Personal Site Redo</div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
         by Dimitri Hector
@@ -29,9 +51,17 @@ function WebDevCardPersonalSiteRedo() {
 }
 function WebDevCardPersonalSiteFirstTry() {
   return (
-    <div className="web-dev-card">
-      <img src={web_dev_card_image} alt="web-dev-project-here" />
-      <div className="project-title">Title of Project</div>
+    <div
+      onClick={ToPersonalSiteFirst}
+      id="personal-site-fsrt"
+      className="web-dev-card"
+    >
+      <img
+        className="project-image"
+        src={web_dev_card_first_try}
+        alt="web-dev-project-here"
+      />
+      <div className="project-title">First Attempt Personal Site</div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
         by Dimitri Hector
@@ -41,9 +71,13 @@ function WebDevCardPersonalSiteFirstTry() {
 }
 function WebDevCardKryptoniumDash() {
   return (
-    <div className="web-dev-card">
-      <img src={web_dev_card_image} alt="web-dev-project-here" />
-      <div className="project-title">Title of Project</div>
+    <div onClick={ToKryptoniumDash} id="krypto-dash" className="web-dev-card">
+      <img
+        className="project-image"
+        src={web_dev_card_krypto}
+        alt="web-dev-project-here"
+      />
+      <div className="project-title">Kryptonium Dashboard</div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
         by Dimitri Hector

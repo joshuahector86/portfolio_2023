@@ -1,13 +1,13 @@
 import "./Home.scss";
 
-import logo_original from "../../assets/general-assets/logo.jpg";
+import { original_logo } from "../../assets/general-assets";
 
 function Home() {
   return (
     <div className="home">
       {/* Left Side of Home Page */}
       <div className="home-photo">
-        <img src={logo_original} alt="main-logo" />
+        <img src={original_logo} alt="main-logo" />
       </div>
       {/* Right Side of Home Page */}
       <div className="home-right-side">
