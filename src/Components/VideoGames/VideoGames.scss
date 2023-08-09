@@ -1,0 +1,44 @@
+//----------------------------------------Video Games---------------------------------------//
+.video-games {
+    max-width: 120rem;
+    .video-games-title {
+        display: flex;
+        align-items: center;
+        background: #252525;
+        padding: 2rem;
+        font-size: 2rem;
+        width: 100vw;
+        height: 4rem;
+        position: fixed;
+        top: 10%;
+        left: 0;
+        border-top: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+    .video-games-portfolio-container {
+        display: flex;
+        justify-content: space-between;
+
+        .video-games-holder {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: scroll;
+            margin-top: 12rem;
+
+            .games-row {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem;
+            }
+        }
+        .video-games-display {
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

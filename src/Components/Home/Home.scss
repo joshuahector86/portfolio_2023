@@ -10,8 +10,8 @@
 
     .home-photo {
         img {
-            width: 18rem;
-            height: 18rem;
+            width: 25rem;
+            height: 25rem;
             border-radius: 50%;
             border: solid 10px #444444;
         }
@@ -19,19 +19,23 @@
     // Right side of Home Page------------------------------------------------/
 
     .home-right-side {
-        max-width: 30rem;
+        max-width: 45rem;
         .grey-title {
             color: grey;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
         .main-title {
-            font-size: 3rem;
+            font-size: 4rem;
             margin: 1rem 0rem 1rem 0rem;
+        }
+
+        p {
+            margin-top: 1rem;
         }
 
         .home-buttons {
             display: flex;
-            margin-top: 1rem;
+            margin-top: 2rem;
             gap: 1rem;
             .web-dev-button {
                 background: #333333;

@@ -1,0 +1,25 @@
+//----------------------------------------Video Game Display---------------------------------------//
+.video-game-display {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    .video-game-display-box {
+        display: flex;
+        width: 50rem;
+        height: 40rem;
+        background: #333333;
+        border-radius: 1rem;
+        img {
+            width: 50rem;
+        }
+    }
+    .caption {
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
