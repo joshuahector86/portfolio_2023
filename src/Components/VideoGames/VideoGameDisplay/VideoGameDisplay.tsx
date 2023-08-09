@@ -1,8 +1,9 @@
 import "./VideoGameDisplay.scss";
-import video_game_image4 from "../../../assets/game4.jpg";
+import video_game_image4 from "../../../assets/video-game-page-assets/game4.jpg";
 import { AiFillStepBackward, AiFillStepForward } from "react-icons/ai";
 import { BiSolidVolumeFull } from "react-icons/bi";
 import { BsFullscreen, BsFillPauseFill, BsFillPlayFill } from "react-icons/bs";
+
 function VideoGameDisplay() {
   return (
     <div className="video-game-display">

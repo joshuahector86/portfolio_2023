@@ -1,5 +1,10 @@
 import "./WebDev.scss";
-import WebDevCard from "./WebDevCard/WebDevCard";
+import {
+  WebDevCardExample,
+  WebDevCardKryptoniumDash,
+  WebDevCardPersonalSiteFirstTry,
+  WebDevCardPersonalSiteRedo,
+} from "./WebDevCard/WebDevCard";
 
 function WebDev() {
   return (
@@ -10,19 +15,19 @@ function WebDev() {
       </div>
       <div className="multi-card-holder">
         <div className="card-container">
-          <WebDevCard />
-          <WebDevCard />
-          <WebDevCard />
+          <WebDevCardPersonalSiteFirstTry />
+          <WebDevCardPersonalSiteRedo />
+          <WebDevCardKryptoniumDash />
         </div>
         <div className="card-container">
-          <WebDevCard />
-          <WebDevCard />
-          <WebDevCard />
+          <WebDevCardExample />
+          <WebDevCardExample />
+          <WebDevCardExample />
         </div>
         <div className="card-container">
-          <WebDevCard />
-          <WebDevCard />
-          <WebDevCard />
+          <WebDevCardExample />
+          <WebDevCardExample />
+          <WebDevCardExample />
         </div>
       </div>
     </div>

@@ -1,10 +1,10 @@
 import "./GamePortfolioBoxes.scss";
-import video_game_image from "../../../assets/video_game_photo.jpg";
-import video_game_image2 from "../../../assets/game2.jpg";
-import video_game_image3 from "../../../assets/game3.jpg";
-import video_game_image4 from "../../../assets/game4.jpg";
+import video_game_image from "../../../assets/video-game-page-assets/video_game_photo.jpg";
+import video_game_image2 from "../../../assets/video-game-page-assets/game2.jpg";
+import video_game_image3 from "../../../assets/video-game-page-assets/game3.jpg";
+import video_game_image4 from "../../../assets/video-game-page-assets/game4.jpg";
 
-import logo from "../../../assets/logo_square.jpg";
+import logo from "../../../assets/general-assets/logo_square.jpg";
 
 function GamePortfolioBoxes1() {
   return (

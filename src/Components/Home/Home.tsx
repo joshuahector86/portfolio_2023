@@ -1,6 +1,6 @@
 import "./Home.scss";
 
-import logo_original from "../../assets/logo.jpg";
+import logo_original from "../../assets/general-assets/logo.jpg";
 
 function Home() {
   return (
