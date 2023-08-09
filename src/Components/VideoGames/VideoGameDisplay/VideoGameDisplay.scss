@@ -1,12 +1,11 @@
 //----------------------------------------Video Game Display---------------------------------------//
 .video-game-display {
     height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 12rem;
+
     .video-game-display-box {
         display: flex;
         flex-direction: column;

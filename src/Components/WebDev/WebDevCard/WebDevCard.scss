@@ -1,0 +1,23 @@
+//----------------------------------------Web Dev Card---------------------------------------//
+.web-dev-card {
+    padding: 0.5rem 0rem 1rem 0rem;
+    img {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .project-title {
+        margin: 0.25rem 0rem 0.25rem 0rem;
+    }
+    .web-dev-caption {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: grey;
+        img {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+        }
+    }
+}

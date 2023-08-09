@@ -17,21 +17,19 @@
     }
     .video-games-portfolio-container {
         display: flex;
-        justify-content: space-between;
+        height: 100%;
+        margin-top: 5rem;
+        // justify-content: space-between;
+        // align-items: center;
 
         .video-games-holder {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            overflow: scroll;
-            margin-top: 12rem;
 
             .games-row {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 1rem;
+                max-height: 40rem;
+                overflow: scroll;
             }
         }
         .video-games-display {

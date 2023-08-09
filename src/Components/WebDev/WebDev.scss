@@ -1,0 +1,38 @@
+//----------------------------------------Web Dev---------------------------------------//
+.web-dev {
+    display: flex;
+    flex-direction: column;
+    max-width: 120rem;
+    min-width: 75rem;
+
+    .feature-buttons {
+        position: fixed;
+        top: 8%;
+        left: 15%;
+        display: flex;
+        gap: 2rem;
+
+        button {
+            background: none;
+            border: none;
+            color: grey;
+            font-size: 1.5rem;
+        }
+        button:hover {
+            color: white;
+            border-bottom: blue solid 1px;
+            cursor: pointer;
+        }
+    }
+    .multi-card-holder {
+        margin-top: 3rem;
+        max-height: 50rem;
+        overflow: scroll;
+        padding: 1rem;
+
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

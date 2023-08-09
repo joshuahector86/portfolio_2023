@@ -19,7 +19,9 @@ function Navbar() {
         <a href="video-games">
           <div className="nav-element">Video Games</div>
         </a>
-        <div className="nav-element">Web Dev</div>
+        <a href="web-dev">
+          <div className="nav-element">Web Dev</div>
+        </a>
       </div>
     </div>
   );
