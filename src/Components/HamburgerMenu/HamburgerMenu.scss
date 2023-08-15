@@ -1,0 +1,32 @@
+//----------------------------------------Hamburger Menu---------------------------------------//
+
+.nav-links-hamburger {
+    display: flex;
+    gap: 0.25rem;
+    position: fixed;
+    top: 7%;
+    right: 15%;
+
+    a {
+        text-decoration: none;
+    }
+
+    .nav-element-hamburger {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        color: grey;
+        background: #111111;
+    }
+    .nav-element-hamburger:hover {
+        cursor: pointer;
+        color: white;
+    }
+}
+
+//----------------------------------------Responsiveness---------------------------------------//
+
+@media (min-width: 37.5rem) {
+    .nav-links-hamburger {
+        position: relative;
+    }
+}

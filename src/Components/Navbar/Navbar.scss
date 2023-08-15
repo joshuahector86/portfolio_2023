@@ -51,4 +51,30 @@
             color: white;
         }
     }
+
+    // Hamburger Menu------------------------------------------------/
+
+    .hamburger-menu {
+        display: none;
+        color: white;
+    }
+    .hamburger-menu:hover {
+        cursor: pointer;
+        background: grey;
+    }
+}
+
+//----------------------------------------Responsiveness---------------------------------------//
+
+@media (max-width: 50rem) {
+    .navbar {
+        .nav-links {
+            display: none;
+        }
+        .hamburger-menu {
+            display: block;
+            font-size: 2rem;
+            padding: 1rem;
+        }
+    }
 }
