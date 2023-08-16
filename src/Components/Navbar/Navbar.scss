@@ -7,6 +7,9 @@
     position: fixed;
     top: 0;
     max-width: 120rem;
+    a {
+        text-decoration: none;
+    }
 
     // Logo side of navbar------------------------------------------------/
     .logo {
@@ -17,6 +20,7 @@
         h4 {
             display: flex;
             font-size: rem;
+            color: white;
             p {
                 color: grey;
                 font-weight: 100;

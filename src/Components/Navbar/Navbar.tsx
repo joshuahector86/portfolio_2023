@@ -15,13 +15,15 @@ function Navbar() {
   return (
     <div className="navbar">
       {/* Logo  */}
-      <div className="logo">
-        <img src={logo_background_removed} alt="logo" />
-        <h4>
-          Dim
-          <p>Hector</p>
-        </h4>
-      </div>
+      <a href="/">
+        <div className="logo">
+          <img src={logo_background_removed} alt="logo" />
+          <h4>
+            Dim
+            <p>Hector</p>
+          </h4>
+        </div>
+      </a>
       {/* Nav Links */}
       <div className="nav-links">
         <a href="/">
