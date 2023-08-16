@@ -3,7 +3,6 @@
     height: 10rem;
     display: flex;
     gap: 1rem;
-
     border-radius: 1rem;
     margin-top: 1rem;
     width: 80%;
@@ -44,4 +43,18 @@
 .portfolio-box:hover {
     background: #333333;
     cursor: pointer;
+}
+
+//----------------------------------------Responsiveness---------------------------------------//
+@media (min-width: 23.75rem) and (max-width: 42.9rem) {
+    .portfolio-box {
+        // flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // margin-left: 5rem;
+
+        .game-image {
+            width: 18rem;
+        }
+    }
 }
