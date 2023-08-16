@@ -68,3 +68,35 @@
         }
     }
 }
+
+//----------------------------------------Responsiveness---------------------------------------//
+
+// 160px to 1000px width
+@media all and (min-width: 10rem) and (max-width: 62.5rem) {
+    .home {
+        flex-direction: column;
+
+        .home-photo {
+            img {
+                width: 15rem;
+                height: 15rem;
+            }
+        }
+
+        .home-right-side {
+            padding: 1rem;
+        }
+    }
+}
+
+// 1001px to 1200px
+@media all and (min-width: 62.563rem) and (max-width: 75rem) {
+    .home {
+        .home-photo {
+            img {
+                width: 18rem;
+                height: 18rem;
+            }
+        }
+    }
+}
