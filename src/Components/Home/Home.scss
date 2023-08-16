@@ -31,23 +31,71 @@
 
         p {
             margin-top: 1rem;
+            font-size: 1rem;
+            line-height: 1.5;
         }
 
         .home-buttons {
             display: flex;
             margin-top: 2rem;
+            font-size: 1.25rem;
             gap: 1rem;
+            a {
+                text-decoration: none;
+            }
             .web-dev-button {
                 background: #333333;
+                color: white;
                 padding: 0.75rem;
                 border: solid 2px #007ced;
                 border-radius: 2rem;
             }
             .video-game-button {
                 background: #333333;
+                color: white;
                 padding: 0.75rem;
                 border: solid 2px white;
                 border-radius: 2rem;
+            }
+
+            .web-dev-button:hover {
+                background: #007ced;
+            }
+            .video-game-button:hover {
+                background-color: white;
+                color: #111111;
+            }
+        }
+    }
+}
+
+//----------------------------------------Responsiveness---------------------------------------//
+
+// 160px to 1000px width
+@media all and (min-width: 10rem) and (max-width: 62.5rem) {
+    .home {
+        flex-direction: column;
+
+        .home-photo {
+            img {
+                width: 15rem;
+                height: 15rem;
+            }
+        }
+
+        .home-right-side {
+            padding: 1rem;
+        }
+    }
+}
+
+// 1001px to 1200px
+@media all and (min-width: 62.563rem) and (max-width: 75rem) {
+    .home {
+        .home-photo {
+            img {
+                width: 18rem;
+                height: 18rem;
             }
         }
     }

@@ -7,6 +7,9 @@
     position: fixed;
     top: 0;
     max-width: 120rem;
+    a {
+        text-decoration: none;
+    }
 
     // Logo side of navbar------------------------------------------------/
     .logo {
@@ -17,6 +20,7 @@
         h4 {
             display: flex;
             font-size: rem;
+            color: white;
             p {
                 color: grey;
                 font-weight: 100;
@@ -49,6 +53,32 @@
         .nav-element:hover {
             cursor: pointer;
             color: white;
+        }
+    }
+
+    // Hamburger Menu------------------------------------------------/
+
+    .hamburger-menu {
+        display: none;
+        color: white;
+    }
+    .hamburger-menu:hover {
+        cursor: pointer;
+        background: #333333;
+    }
+}
+
+//----------------------------------------Responsiveness---------------------------------------//
+
+@media (max-width: 50rem) {
+    .navbar {
+        .nav-links {
+            display: none;
+        }
+        .hamburger-menu {
+            display: block;
+            font-size: 2rem;
+            padding: 1rem;
         }
     }
 }

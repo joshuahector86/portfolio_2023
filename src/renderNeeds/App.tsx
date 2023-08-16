@@ -1,10 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import Home from "../Components/Home/Home";
 import "./App.scss";
-import VideoGames from "../Components/VideoGames/VideoGames";
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
+import { Home, Navbar, VideoGames, WebDev, Footer } from "../Components";
 
 function App() {
   return (
@@ -14,6 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/video-games" element={<VideoGames />} />
+          <Route path="/web-dev" element={<WebDev />} />
         </Routes>
       </Router>
       <Footer />

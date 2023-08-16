@@ -1,0 +1,5 @@
+import web_dev_card_krypto from "./kryptoniumDash.png";
+import web_dev_card_redo from "./redo_site.png";
+import web_dev_card_first_try from "./first_try_site.png";
+
+export { web_dev_card_first_try, web_dev_card_redo, web_dev_card_krypto };
