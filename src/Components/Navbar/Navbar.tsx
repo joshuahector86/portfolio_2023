@@ -29,10 +29,10 @@ function Navbar() {
         <a href="/">
           <div className="nav-element">Home</div>
         </a>
-        <a href="web-dev">
+        <a href="/portfolio_2023/web-dev">
           <div className="nav-element">Web Dev</div>
         </a>
-        <a href="video-games">
+        <a href="/portfolio_2023/video-games">
           <div className="nav-element">Video Games</div>
         </a>
       </div>
