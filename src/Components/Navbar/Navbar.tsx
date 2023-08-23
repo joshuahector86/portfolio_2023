@@ -26,7 +26,7 @@ function Navbar() {
       </a>
       {/* Nav Links */}
       <div className="nav-links">
-        <a href="/">
+        <a href="/portfolio_2023">
           <div className="nav-element">Home</div>
         </a>
         <a href="/portfolio_2023/web-dev">
