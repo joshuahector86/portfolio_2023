@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.scss";
 
 function Footer() {
@@ -5,9 +6,12 @@ function Footer() {
     <div className="footer">
       <div className="footer-container">
         <div className="footer-links">
-          <div>LinkedIn</div>
-          <div>Instagram</div>
-          <div>Youtube</div>
+          <Link
+            style={{ textDecoration: "none", color: "grey" }}
+            to="https://www.linkedin.com/in/dimitri-hector-a113b9149/"
+          >
+            LinkedIn
+          </Link>
         </div>
         <div className="copyright">
           Copyright &copy;

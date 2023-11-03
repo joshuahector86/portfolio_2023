@@ -4,6 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 import { useState } from "react";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+import { Link } from "react-router-dom";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [hamburgerOrX, setHamburgerOrX] = useState(true);
@@ -15,26 +16,28 @@ function Navbar() {
   return (
     <div className="navbar">
       {/* Logo  */}
-      <a href="/">
-        <div className="logo">
-          <img src={logo_background_removed} alt="logo" />
+      <div className="logo">
+        <img src={logo_background_removed} alt="logo" />
+        <Link to="/portfolio_2023">
           <h4>
             Dim
             <p>Hector</p>
           </h4>
-        </div>
-      </a>
+        </Link>
+      </div>
       {/* Nav Links */}
       <div className="nav-links">
-        <a href="/portfolio_2023">
+        <Link to="/portfolio_2023">
           <div className="nav-element">Home</div>
-        </a>
-        <a href="/portfolio_2023/web-dev">
+        </Link>
+
+        <Link to="/portfolio_2023/web-dev">
           <div className="nav-element">Web Dev</div>
-        </a>
-        <a href="/portfolio_2023/video-games">
+        </Link>
+
+        <Link to="/portfolio_2023/video-games">
           <div className="nav-element">Video Games</div>
-        </a>
+        </Link>
       </div>
       {menuOpen ? <HamburgerMenu /> : ""}
       <div className="hamburger-menu" onClick={toggleMenu}>

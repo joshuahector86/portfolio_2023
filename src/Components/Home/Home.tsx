@@ -24,20 +24,16 @@ function Home() {
           periods of time!
         </p>
         <div className="home-buttons">
-          <div className="web-dev-button">
-            <Link
-              style={{ textDecoration: "none", color: "white" }}
-              to="/portfolio_2023/web-dev"
-            >
-              Web Dev Work
-            </Link>
-          </div>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/portfolio_2023/web-dev"
+          >
+            <div className="web-dev-button">Web Dev Work</div>
+          </Link>
 
-          <div className="video-game-button">
-            <Link style={{ color: "white" }} to="/portfolio_2023/video-games">
-              Video Games
-            </Link>
-          </div>
+          <Link style={{ color: "white" }} to="/portfolio_2023/video-games">
+            <div className="video-game-button">Video Games</div>
+          </Link>
         </div>
       </div>
     </div>
