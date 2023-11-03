@@ -1,6 +1,7 @@
 import "./Home.scss";
 
 import { original_logo } from "../../assets/general-assets";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -23,12 +24,20 @@ function Home() {
           periods of time!
         </p>
         <div className="home-buttons">
-          <a href="/portfolio_2023/web-dev">
-            <div className="web-dev-button">Web Dev Work</div>
-          </a>
-          <a href="/portfolio_2023/video-games">
-            <div className="video-game-button">Video Games</div>
-          </a>
+          <div className="web-dev-button">
+            <Link
+              style={{ textDecoration: "none", color: "white" }}
+              to="/portfolio_2023/web-dev"
+            >
+              Web Dev Work
+            </Link>
+          </div>
+
+          <div className="video-game-button">
+            <Link style={{ color: "white" }} to="/portfolio_2023/video-games">
+              Video Games
+            </Link>
+          </div>
         </div>
       </div>
     </div>

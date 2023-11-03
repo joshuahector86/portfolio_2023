@@ -49,6 +49,7 @@
                 padding: 0.75rem;
                 border: solid 2px #007ced;
                 border-radius: 2rem;
+                text-decoration: none;
             }
             .video-game-button {
                 background: #333333;
@@ -62,8 +63,7 @@
                 background: #007ced;
             }
             .video-game-button:hover {
-                background-color: white;
-                color: #111111;
+                background-color: rgb(124, 124, 124);
             }
         }
     }
