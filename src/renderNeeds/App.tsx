@@ -12,8 +12,8 @@ function App() {
           <Route path="/portfolio_2023/video-games" element={<VideoGames />} />
           <Route path="/portfolio_2023/web-dev" element={<WebDev />} />
         </Routes>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }
