@@ -5,8 +5,8 @@ import { Home, Navbar, VideoGames, WebDev, Footer } from "../Components";
 function App() {
   return (
     <div className="app">
-      <Navbar />
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/portfolio_2023" element={<Home />} />
           <Route path="/portfolio_2023/video-games" element={<VideoGames />} />
