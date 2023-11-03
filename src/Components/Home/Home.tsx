@@ -26,7 +26,7 @@ function Home() {
           <a href="/portfolio_2023/web-dev">
             <div className="web-dev-button">Web Dev Work</div>
           </a>
-          <a href="/video-games">
+          <a href="/portfolio_2023/video-games">
             <div className="video-game-button">Video Games</div>
           </a>
         </div>
