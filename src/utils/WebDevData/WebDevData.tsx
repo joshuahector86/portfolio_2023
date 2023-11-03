@@ -1,7 +1,10 @@
 export const WebDevData = [
   { id: "example", url: "/web-dev" },
   { id: "personal-site-redo", url: "https://dimitrihector.com/" },
-  { id: "personal-site-fsrt", url: "https://joshuahector.com/" },
+  {
+    id: "personal-site-fsrt",
+    url: "https://joshuahector86.github.io/professional-site/",
+  },
   {
     id: "krypto-dash",
     url: "https://joshuahector86.github.io/crypto-dashboard-remake/",
@@ -19,7 +22,7 @@ function ToKryptoniumDash() {
 }
 
 function ToPersonalSiteFirst() {
-  OpenURLInNewTab("https://joshuahector.com/");
+  OpenURLInNewTab("https://joshuahector86.github.io/professional-site/");
 }
 function ToPersonalSiteRedo() {
   OpenURLInNewTab("https://dimitrihector.com");
