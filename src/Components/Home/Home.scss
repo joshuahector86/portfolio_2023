@@ -38,8 +38,8 @@
         .home-buttons {
             display: flex;
             margin-top: 2rem;
-            font-size: 1.25rem;
-            gap: 1rem;
+            font-size: 2.25rem;
+
             a {
                 text-decoration: none;
             }
@@ -48,7 +48,7 @@
                 color: white;
                 padding: 0.75rem;
                 border: solid 2px #007ced;
-                border-radius: 2rem;
+                border-radius: 0.5rem;
                 text-decoration: none;
             }
             .video-game-button {
