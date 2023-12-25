@@ -36,7 +36,7 @@ function WebDevCardExample() {
         src={construction_image}
         alt="web-dev-project-here"
       />
-      <div className="project-title">Title of Project</div>
+      <div className="project-title">Place Holder Project</div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
         by Dimitri Hector

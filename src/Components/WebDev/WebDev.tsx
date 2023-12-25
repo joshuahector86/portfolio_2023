@@ -10,8 +10,7 @@ function WebDev() {
   return (
     <div className="web-dev">
       <div className="feature-buttons">
-        <button>Featured</button>
-        <button>All</button>
+        <button>Web Development Projects</button>
       </div>
       <div className="multi-card-holder">
         <div className="card-container">
