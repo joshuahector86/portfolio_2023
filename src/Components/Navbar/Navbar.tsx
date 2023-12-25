@@ -16,15 +16,15 @@ function Navbar() {
   return (
     <div className="navbar">
       {/* Logo  */}
-      <div className="logo">
-        <img src={logo_background_removed} alt="logo" />
-        <Link to="/portfolio_2023">
+      <Link to="/portfolio_2023">
+        <div className="logo">
+          <img src={logo_background_removed} alt="logo" />
           <h4>
             Dim
             <p>Hector</p>
           </h4>
-        </Link>
-      </div>
+        </div>
+      </Link>
       {/* Nav Links */}
       <div className="nav-links">
         <Link to="/portfolio_2023">
@@ -35,9 +35,9 @@ function Navbar() {
           <div className="nav-element">Web Dev</div>
         </Link>
 
-        <Link to="/portfolio_2023/video-games">
+        {/* <Link to="/portfolio_2023/video-games">
           <div className="nav-element">Video Games</div>
-        </Link>
+        </Link> */}
       </div>
       {menuOpen ? <HamburgerMenu /> : ""}
       <div className="hamburger-menu" onClick={toggleMenu}>
