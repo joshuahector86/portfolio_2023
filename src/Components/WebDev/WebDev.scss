@@ -32,6 +32,11 @@
             display: flex;
             justify-content: space-between;
         }
+        .card-container-bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10rem;
+        }
     }
 }
 
@@ -41,6 +46,10 @@
     .web-dev {
         .multi-card-holder {
             .card-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .card-container-bottom {
                 flex-direction: column;
                 align-items: center;
             }

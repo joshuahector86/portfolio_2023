@@ -9,9 +9,6 @@ import {
 function WebDev() {
   return (
     <div className="web-dev">
-      <div className="feature-buttons">
-        <button>Web Development Projects</button>
-      </div>
       <div className="multi-card-holder">
         <div className="card-container">
           <WebDevCardPersonalSiteFirstTry />
@@ -23,7 +20,7 @@ function WebDev() {
           <WebDevCardExample />
           <WebDevCardExample />
         </div>
-        <div className="card-container">
+        <div className="card-container-bottom">
           <WebDevCardExample />
           <WebDevCardExample />
           <WebDevCardExample />
