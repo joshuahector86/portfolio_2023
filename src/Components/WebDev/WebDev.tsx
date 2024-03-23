@@ -4,6 +4,7 @@ import {
   WebDevCardKryptoniumDash,
   WebDevCardPersonalSiteFirstTry,
   WebDevCardPersonalSiteRedo,
+  WebDevCardProsite2024,
 } from "./WebDevCard/WebDevCard";
 
 function WebDev() {
@@ -11,12 +12,12 @@ function WebDev() {
     <div className="web-dev">
       <div className="multi-card-holder">
         <div className="card-container">
-          <WebDevCardPersonalSiteFirstTry />
+          <WebDevCardProsite2024 />
           <WebDevCardPersonalSiteRedo />
-          <WebDevCardKryptoniumDash />
+          <WebDevCardPersonalSiteFirstTry />
         </div>
         <div className="card-container">
-          <WebDevCardExample />
+          <WebDevCardKryptoniumDash />
           <WebDevCardExample />
           <WebDevCardExample />
         </div>

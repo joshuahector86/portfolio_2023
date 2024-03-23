@@ -21,11 +21,19 @@ function ToKryptoniumDash() {
   OpenURLInNewTab("https://joshuahector86.github.io/crypto-dashboard-remake/");
 }
 
+function ToProSite2024() {
+  OpenURLInNewTab("https://dimitrihector.com/");
+}
 function ToPersonalSiteFirst() {
   OpenURLInNewTab("https://joshuahector86.github.io/professional-site/");
 }
 function ToPersonalSiteRedo() {
-  OpenURLInNewTab("https://dimitrihector.com");
+  OpenURLInNewTab("https://joshuahector86.github.io/professional_site_2023/");
 }
 
-export { ToKryptoniumDash, ToPersonalSiteFirst, ToPersonalSiteRedo };
+export {
+  ToKryptoniumDash,
+  ToPersonalSiteFirst,
+  ToPersonalSiteRedo,
+  ToProSite2024,
+};

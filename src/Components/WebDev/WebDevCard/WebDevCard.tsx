@@ -3,12 +3,14 @@ import { construction_image } from "../../../assets/general-assets";
 import {
   web_dev_card_first_try,
   web_dev_card_krypto,
+  web_dev_card_prosite2024,
   web_dev_card_redo,
 } from "../../../assets/web-dev-page-assets";
 import {
   ToKryptoniumDash,
   ToPersonalSiteFirst,
   ToPersonalSiteRedo,
+  ToProSite2024,
 } from "../../../utils/WebDevData/WebDevData";
 import logo from "../../../assets/general-assets/logo.jpg";
 import { useStoreUnderConstructionDialog } from "../../../ZustandStores/UnderConstructionDialogStore";
@@ -59,7 +61,7 @@ function WebDevCardPersonalSiteRedo() {
         src={web_dev_card_redo}
         alt="web-dev-project-here"
       />
-      <div className="project-title">Personal Site Redo</div>
+      <div className="project-title">Personal Site 2023</div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
         by Dimitri Hector
@@ -110,9 +112,28 @@ function WebDevCardKryptoniumDash() {
   );
 }
 
+//----------------------------------------Prosite 2024------------------------------------//
+
+function WebDevCardProsite2024() {
+  return (
+    <div onClick={ToProSite2024} id="krypto-dash" className="web-dev-card">
+      <img
+        className="project-image"
+        src={web_dev_card_prosite2024}
+        alt="web-dev-project-here"
+      />
+      <div className="project-title">Personal Site 2024</div>
+      <div className="web-dev-caption">
+        <img src={logo} alt="my-logo" />
+        by Dimitri Hector
+      </div>
+    </div>
+  );
+}
 export {
   WebDevCardExample,
   WebDevCardPersonalSiteRedo,
   WebDevCardPersonalSiteFirstTry,
   WebDevCardKryptoniumDash,
+  WebDevCardProsite2024,
 };
