@@ -2,12 +2,10 @@ import "./WebDevCard.scss";
 import { construction_image } from "../../../assets/general-assets";
 import {
   web_dev_card_first_try,
-  web_dev_card_krypto,
   web_dev_card_prosite2024,
   web_dev_card_redo,
 } from "../../../assets/web-dev-page-assets";
 import {
-  ToKryptoniumDash,
   ToPersonalSiteFirst,
   ToPersonalSiteRedo,
   ToProSite2024,
@@ -93,25 +91,6 @@ function WebDevCardPersonalSiteFirstTry() {
   );
 }
 
-//----------------------------------------Krypto Dashboard------------------------------------//
-
-function WebDevCardKryptoniumDash() {
-  return (
-    <div onClick={ToKryptoniumDash} id="krypto-dash" className="web-dev-card">
-      <img
-        className="project-image"
-        src={web_dev_card_krypto}
-        alt="web-dev-project-here"
-      />
-      <div className="project-title">Kryptonium Dashboard</div>
-      <div className="web-dev-caption">
-        <img src={logo} alt="my-logo" />
-        by Dimitri Hector
-      </div>
-    </div>
-  );
-}
-
 //----------------------------------------Prosite 2024------------------------------------//
 
 function WebDevCardProsite2024() {
@@ -134,6 +113,5 @@ export {
   WebDevCardExample,
   WebDevCardPersonalSiteRedo,
   WebDevCardPersonalSiteFirstTry,
-  WebDevCardKryptoniumDash,
   WebDevCardProsite2024,
 };

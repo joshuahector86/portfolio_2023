@@ -1,7 +1,6 @@
 import "./WebDev.scss";
 import {
   WebDevCardExample,
-  WebDevCardKryptoniumDash,
   WebDevCardPersonalSiteFirstTry,
   WebDevCardPersonalSiteRedo,
   WebDevCardProsite2024,
@@ -17,7 +16,7 @@ function WebDev() {
           <WebDevCardPersonalSiteFirstTry />
         </div>
         <div className="card-container">
-          <WebDevCardKryptoniumDash />
+          <WebDevCardExample />
           <WebDevCardExample />
           <WebDevCardExample />
         </div>
