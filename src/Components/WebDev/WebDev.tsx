@@ -1,5 +1,6 @@
 import "./WebDev.scss";
 import {
+  WebDevCardEverythingDash,
   WebDevCardExample,
   WebDevCardPersonalSiteFirstTry,
   WebDevCardPersonalSiteRedo,
@@ -11,12 +12,12 @@ function WebDev() {
     <div className="web-dev">
       <div className="multi-card-holder">
         <div className="card-container">
+          <WebDevCardEverythingDash />
           <WebDevCardProsite2024 />
           <WebDevCardPersonalSiteRedo />
-          <WebDevCardPersonalSiteFirstTry />
         </div>
         <div className="card-container">
-          <WebDevCardExample />
+          <WebDevCardPersonalSiteFirstTry />
           <WebDevCardExample />
           <WebDevCardExample />
         </div>

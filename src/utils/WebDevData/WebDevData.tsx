@@ -17,9 +17,6 @@ const OpenURLInNewTab = (url: string) => {
   if (newWindow) newWindow.opener = null;
 };
 // URL onClcik functions
-function ToKryptoniumDash() {
-  OpenURLInNewTab("https://joshuahector86.github.io/crypto-dashboard-remake/");
-}
 
 function ToProSite2024() {
   OpenURLInNewTab("https://dimitrihector.com/");
@@ -30,9 +27,12 @@ function ToPersonalSiteFirst() {
 function ToPersonalSiteRedo() {
   OpenURLInNewTab("https://joshuahector86.github.io/professional_site_2023/");
 }
+function ToEverythingDash() {
+  OpenURLInNewTab("https://llm-based-corporate-dash-aolp.vercel.app/");
+}
 
 export {
-  ToKryptoniumDash,
+  ToEverythingDash,
   ToPersonalSiteFirst,
   ToPersonalSiteRedo,
   ToProSite2024,
