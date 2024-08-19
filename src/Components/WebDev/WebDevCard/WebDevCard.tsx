@@ -5,8 +5,10 @@ import {
   web_dev_card_prosite2024,
   web_dev_card_redo,
   web_dev_card_everythingdash,
+  web_dev_card_clonetubeui,
 } from "../../../assets/web-dev-page-assets";
 import {
+  ToCloneTube,
   ToEverythingDash,
   ToPersonalSiteFirst,
   ToPersonalSiteRedo,
@@ -17,6 +19,25 @@ import { useStoreUnderConstructionDialog } from "../../../ZustandStores/UnderCon
 import UnderConstructionDialog from "../../DialogBoxes/UnderConstructionDialog";
 
 //----------------------------------------Web Dev Cards------------------------------------//
+
+//----------------------------------------CloneTubeUI------------------------------------//
+
+function WebDevCardCloneTubeUI() {
+  return (
+    <div onClick={ToCloneTube} id="krypto-dash" className="web-dev-card">
+      <img
+        className="project-image"
+        src={web_dev_card_clonetubeui}
+        alt="Corporate-dash"
+      />
+      <div className="project-title">CloneTube UI</div>
+      <div className="web-dev-caption">
+        <img src={logo} alt="my-logo" />
+        by Dimitri Hector
+      </div>
+    </div>
+  );
+}
 
 //----------------------------------------Coporate Dashboard------------------------------------//
 
@@ -140,4 +161,5 @@ export {
   WebDevCardPersonalSiteFirstTry,
   WebDevCardProsite2024,
   WebDevCardEverythingDash,
+  WebDevCardCloneTubeUI,
 };

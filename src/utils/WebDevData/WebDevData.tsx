@@ -30,10 +30,14 @@ function ToPersonalSiteRedo() {
 function ToEverythingDash() {
   OpenURLInNewTab("https://llm-based-corporate-dash-aolp.vercel.app/");
 }
+function ToCloneTube() {
+  OpenURLInNewTab("https://youtube-clone-phi-wine.vercel.app/");
+}
 
 export {
   ToEverythingDash,
   ToPersonalSiteFirst,
   ToPersonalSiteRedo,
   ToProSite2024,
+  ToCloneTube,
 };
