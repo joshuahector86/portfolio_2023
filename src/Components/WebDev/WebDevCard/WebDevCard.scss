@@ -1,31 +1,32 @@
 //----------------------------------------Web Dev Card---------------------------------------//
 .web-dev-card {
-    padding-bottom: 1rem;
-    margin-bottom: 0.5rem;
-    img {
-        width: 20rem;
-        height: 15rem;
-    }
+  padding-bottom: 1rem;
 
-    .project-title {
-        margin: 0.25rem 0rem 0.25rem 0rem;
+  margin-bottom: 0.5rem;
+  img {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  .project-title {
+    margin: 0.25rem 0rem 0.25rem 0.25rem;
+  }
+  .web-dev-caption {
+    margin-left: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: grey;
+    img {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
     }
-    .web-dev-caption {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        color: grey;
-        img {
-            width: 2rem;
-            height: 2rem;
-            border-radius: 50%;
-        }
-    }
+  }
 }
 .web-dev-card:hover {
-    background: #333333;
-    padding-bottom: 0.5rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    cursor: pointer;
+  padding-bottom: 0.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
 }
