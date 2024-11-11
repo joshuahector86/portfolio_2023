@@ -6,8 +6,10 @@ import {
   web_dev_card_redo,
   web_dev_card_everythingdash,
   web_dev_card_clonetubeui,
+  web_dev_card_chat_app,
 } from "../../../assets/web-dev-page-assets";
 import {
+  ToChatApp,
   ToCloneTube,
   ToEverythingDash,
   ToPersonalSiteFirst,
@@ -22,6 +24,25 @@ import UnderConstructionDialog from "../../DialogBoxes/UnderConstructionDialog";
 
 //----------------------------------------CloneTubeUI------------------------------------//
 
+function WebDevCardChatAppUI() {
+  return (
+    <div onClick={ToChatApp} id="chat-app" className="web-dev-card">
+      <img
+        className="project-image"
+        src={web_dev_card_chat_app}
+        alt="Corporate-dash"
+      />
+      <div className="project-title">Chat App UI Only</div>
+      <div className="web-dev-caption">
+        <img src={logo} alt="my-logo" />
+        by Dimitri Hector
+      </div>
+    </div>
+  );
+}
+
+//----------------------------------------CloneTubeUI------------------------------------//
+
 function WebDevCardCloneTubeUI() {
   return (
     <div onClick={ToCloneTube} id="krypto-dash" className="web-dev-card">
@@ -30,7 +51,7 @@ function WebDevCardCloneTubeUI() {
         src={web_dev_card_clonetubeui}
         alt="Corporate-dash"
       />
-      <div className="project-title">CloneTube UI</div>
+      <div className="project-title">CloneTube UI Only</div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
         by Dimitri Hector
@@ -49,7 +70,9 @@ function WebDevCardEverythingDash() {
         src={web_dev_card_everythingdash}
         alt="Corporate-dash"
       />
-      <div className="project-title">Everthing Dashboard</div>
+      <div className="project-title">
+        Everthing Dashboard UI Only - Large Screen Only
+      </div>
       <div className="web-dev-caption">
         <img src={logo} alt="my-logo" />
         by Dimitri Hector
@@ -162,4 +185,5 @@ export {
   WebDevCardProsite2024,
   WebDevCardEverythingDash,
   WebDevCardCloneTubeUI,
+  WebDevCardChatAppUI,
 };
