@@ -33,6 +33,11 @@ function ToEverythingDash() {
 function ToCloneTube() {
   OpenURLInNewTab("https://youtube-clone-phi-wine.vercel.app/");
 }
+function ToChatApp() {
+  OpenURLInNewTab(
+    "https://chatapp-eakaazrdy-joshuahector86s-projects.vercel.app/"
+  );
+}
 
 export {
   ToEverythingDash,
@@ -40,4 +45,5 @@ export {
   ToPersonalSiteRedo,
   ToProSite2024,
   ToCloneTube,
+  ToChatApp,
 };
