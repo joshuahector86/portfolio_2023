@@ -1,84 +1,58 @@
 //----------------------------------------Navbar---------------------------------------//
 .navbar {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  max-width: 120rem;
+  a {
+    text-decoration: none;
+  }
+
+  // Logo side of navbar------------------------------------------------/
+  .logo {
+    padding: 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    max-width: 120rem;
+
+    h4 {
+      display: flex;
+      font-size: rem;
+      color: white;
+      p {
+        color: grey;
+        font-weight: 100;
+      }
+    }
+    img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      background: #007ced;
+      border-radius: 50%;
+    }
+  }
+  // Links side of navbar------------------------------------------------/
+
+  .nav-links {
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
     a {
-        text-decoration: none;
+      text-decoration: none;
     }
 
-    // Logo side of navbar------------------------------------------------/
-    .logo {
-        padding: 1rem;
-        display: flex;
-        align-items: center;
-
-        h4 {
-            display: flex;
-            font-size: rem;
-            color: white;
-            p {
-                color: grey;
-                font-weight: 100;
-            }
-        }
-        img {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 2.5rem;
-            height: 2.5rem;
-            background: #007ced;
-            border-radius: 50%;
-        }
+    .nav-element {
+      border-radius: 0.5rem;
+      color: grey;
     }
-    // Links side of navbar------------------------------------------------/
-
-    .nav-links {
-        padding: 1rem;
-        display: flex;
-        gap: 2rem;
-        a {
-            text-decoration: none;
-        }
-
-        .nav-element {
-            border-radius: 0.5rem;
-            color: grey;
-        }
-        .nav-element:hover {
-            cursor: pointer;
-            color: white;
-        }
+    .nav-element:hover {
+      cursor: pointer;
+      color: white;
     }
-
-    // Hamburger Menu------------------------------------------------/
-
-    .hamburger-menu {
-        display: none;
-        color: white;
-    }
-    .hamburger-menu:hover {
-        cursor: pointer;
-        background: #333333;
-    }
-}
-
-//----------------------------------------Responsiveness---------------------------------------//
-
-@media (max-width: 50rem) {
-    .navbar {
-        .nav-links {
-            display: none;
-        }
-        .hamburger-menu {
-            display: block;
-            font-size: 2rem;
-            padding: 1rem;
-        }
-    }
+  }
 }

@@ -16,13 +16,6 @@ function HamburgerMenu() {
       >
         Web Dev
       </Link>
-
-      {/* <Link
-        style={{ textDecoration: "none", color: "grey" }}
-        to="/portfolio_2023/video-games"
-      >
-        Video Games
-      </Link> */}
     </div>
   );
 }
