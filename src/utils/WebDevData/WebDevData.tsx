@@ -39,6 +39,12 @@ function ToChatApp() {
   );
 }
 
+function ToHectorgram() {
+  OpenURLInNewTab(
+    "https://hectorgram-kt3hymmyn-joshuahector86s-projects.vercel.app/"
+  );
+}
+
 export {
   ToEverythingDash,
   ToPersonalSiteFirst,
@@ -46,4 +52,5 @@ export {
   ToProSite2024,
   ToCloneTube,
   ToChatApp,
+  ToHectorgram,
 };
