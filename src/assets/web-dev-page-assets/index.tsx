@@ -5,6 +5,7 @@ import web_dev_card_prosite2024 from "./prosite2024.png";
 import web_dev_card_everythingdash from "./everythingdashimg.png";
 import web_dev_card_clonetubeui from "./cloneTubeUI.png";
 import web_dev_card_chat_app from "./chat_app_photo.png";
+import web_dev_card_hectorgram from "./hectorgramlogo.png";
 
 export {
   web_dev_card_first_try,
@@ -14,4 +15,5 @@ export {
   web_dev_card_everythingdash,
   web_dev_card_clonetubeui,
   web_dev_card_chat_app,
+  web_dev_card_hectorgram,
 };

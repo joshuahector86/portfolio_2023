@@ -7,11 +7,13 @@ import {
   web_dev_card_everythingdash,
   web_dev_card_clonetubeui,
   web_dev_card_chat_app,
+  web_dev_card_hectorgram,
 } from "../../../assets/web-dev-page-assets";
 import {
   ToChatApp,
   ToCloneTube,
   ToEverythingDash,
+  ToHectorgram,
   ToPersonalSiteFirst,
   ToPersonalSiteRedo,
   ToProSite2024,
@@ -24,13 +26,31 @@ import UnderConstructionDialog from "../../DialogBoxes/UnderConstructionDialog";
 
 //----------------------------------------CloneTubeUI------------------------------------//
 
+function WebDevCardHectorgram() {
+  return (
+    <div onClick={ToHectorgram} id="chat-app" className="web-dev-card">
+      <img
+        className="project-image"
+        src={web_dev_card_hectorgram}
+        alt="Hectorgram-Fullstack"
+      />
+      <div className="project-title">Hectorgram - Fullstack & Responsive</div>
+      <div className="web-dev-caption">
+        <img src={logo} alt="my-logo" />
+        by Dimitri Hector
+      </div>
+    </div>
+  );
+}
+//----------------------------------------Chat App UI-----------------------------------//
+
 function WebDevCardChatAppUI() {
   return (
     <div onClick={ToChatApp} id="chat-app" className="web-dev-card">
       <img
         className="project-image"
         src={web_dev_card_chat_app}
-        alt="Corporate-dash"
+        alt="Chat-App-UI"
       />
       <div className="project-title">Chat App UI Only</div>
       <div className="web-dev-caption">
@@ -186,4 +206,5 @@ export {
   WebDevCardEverythingDash,
   WebDevCardCloneTubeUI,
   WebDevCardChatAppUI,
+  WebDevCardHectorgram,
 };
