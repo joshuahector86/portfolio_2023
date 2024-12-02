@@ -41,7 +41,7 @@ function ToChatApp() {
 
 function ToHectorgram() {
   OpenURLInNewTab(
-    "https://hectorgram-kt3hymmyn-joshuahector86s-projects.vercel.app/"
+    "https://hectorgram-8duys1s0y-joshuahector86s-projects.vercel.app/"
   );
 }
 
