@@ -34,15 +34,11 @@ function ToCloneTube() {
   OpenURLInNewTab("https://youtube-clone-phi-wine.vercel.app/");
 }
 function ToChatApp() {
-  OpenURLInNewTab(
-    "https://chatapp-eakaazrdy-joshuahector86s-projects.vercel.app/"
-  );
+  OpenURLInNewTab("https://chatapp-theta-rouge.vercel.app/");
 }
 
 function ToHectorgram() {
-  OpenURLInNewTab(
-    "https://hectorgram-8duys1s0y-joshuahector86s-projects.vercel.app/"
-  );
+  OpenURLInNewTab("https://hectorgram.vercel.app/");
 }
 
 export {
